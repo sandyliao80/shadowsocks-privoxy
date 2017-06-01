@@ -15,7 +15,7 @@ RUN pip install shadowsocks
 
 ENV SERVER_ADDR= \
     SERVER_PORT=8899  \
-    METHOD=r4-md5 \
+    METHOD=rc4-md5 \
     TIMEOUT=300 \
     PASSWORD=
 
