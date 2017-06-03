@@ -27,6 +27,8 @@ forward-socks5  .*google*.* 127.0.0.1:7070  .
 
 forward-socks5  .*docker*.* 127.0.0.1:7070  .
 
+forward-socks5  .*box*.* 127.0.0.1:7070  .
+
 
 forwarded-connect-retries  0
 
