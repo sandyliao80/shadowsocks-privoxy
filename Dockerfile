@@ -14,7 +14,7 @@ RUN \
 RUN pip install shadowsocks
 
 ENV SERVER_ADDR= \
-    SERVER_PORT=8899  \
+    SERVER_PORT=3306  \
     METHOD=chacha20 \
     TIMEOUT=300 \
     PASSWORD=
